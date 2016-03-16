@@ -1,0 +1,99 @@
+{
+  "author" : "Arsenii Feshchenko",
+  "authorEmail" : "ars.feshchenko@gmail.com",
+  "homepage": "",
+  "version": 1,
+  "identifier": "com.example.sketch.painter",
+  "compatibleVersion": 3,
+  "bundleVersion": 1,
+  "commands" : [
+    {
+      "script" : "painter.cocoascript",
+      "handler" : "onRun1",
+      "shortcut" : "shift ctrl 1",
+      "name" : "#FF9800",
+      "identifier" : "toggle1"
+    },
+    {
+      "script" : "painter.cocoascript",
+      "handler" : "onRun2",
+      "shortcut" : "shift ctrl 2",
+      "name" : "#FD9F41",
+      "identifier" : "toggle2"
+    },
+    {
+      "script" : "painter.cocoascript",
+      "handler" : "onRun3",
+      "shortcut" : "shift ctrl 3",
+      "name" : "#6688BB",
+      "identifier" : "toggle3"
+    },
+    {
+      "script" : "painter.cocoascript",
+      "handler" : "onRun4",
+      "shortcut" : "shift ctrl 4",
+      "name" : "#606EA5",
+      "identifier" : "toggle4"
+    },
+    {
+      "script" : "painter.cocoascript",
+      "handler" : "onRun5",
+      "shortcut" : "shift ctrl 5",
+      "name" : "#333333",
+      "identifier" : "toggle5"
+    },
+    {
+      "script" : "painter.cocoascript",
+      "handler" : "onRun6",
+      "shortcut" : "shift ctrl 6",
+      "name" : "#9E9E9E",
+      "identifier" : "toggle6"
+    },
+    {
+      "script" : "painter.cocoascript",
+      "handler" : "onRun7",
+      "shortcut" : "shift ctrl 7",
+      "name" : "#BDBDBD",
+      "identifier" : "toggle7"
+    },
+    {
+      "script" : "painter.cocoascript",
+      "handler" : "onRun8",
+      "shortcut" : "shift ctrl 8",
+      "name" : "#E0E0E0",
+      "identifier" : "toggle8"
+    },
+    {
+      "script" : "painter.cocoascript",
+      "handler" : "onRun9",
+      "shortcut" : "shift ctrl 9",
+      "name" : "#F5F5F5",
+      "identifier" : "toggle9"
+    },
+    {
+      "script" : "painter.cocoascript",
+      "handler" : "onRun0",
+      "shortcut" : "shift ctrl 0",
+      "name" : "#FFFFFF",
+      "identifier" : "toggle0"
+    },
+
+  ],
+  "menu" : {
+    "items" : [
+      "toggle1",
+      "toggle2",
+      "toggle3",
+      "toggle4",
+      "toggle5",
+      "toggle6",
+      "toggle7",
+      "toggle8",
+      "toggle9",
+      "toggle0"
+    ],
+    "title" : "Painter"
+  },
+
+
+}

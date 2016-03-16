@@ -1,0 +1,43 @@
+
+
+var color1 = "#FF9800";
+var color2 = "#FD9F41";
+var color3 = "#6688BB";
+var color4 = "#606EA5";
+var color5 = "#333333";
+var color6 = "#9E9E9E";
+var color7 = "#BDBDBD";
+var color8 = "#E0E0E0";
+var color9 = "#F5F5F5";
+var color0 = "#FFFFFF";
+
+
+var onRun1 = function(context) { fillWithColor(MSColor.colorWithSVGString(color1), context); };
+var onRun2 = function(context) { fillWithColor(MSColor.colorWithSVGString(color2), context); };
+var onRun3 = function(context) { fillWithColor(MSColor.colorWithSVGString(color3), context); };
+var onRun4 = function(context) { fillWithColor(MSColor.colorWithSVGString(color4), context); };
+var onRun5 = function(context) { fillWithColor(MSColor.colorWithSVGString(color5), context); };
+var onRun6 = function(context) { fillWithColor(MSColor.colorWithSVGString(color6), context); };
+var onRun7 = function(context) { fillWithColor(MSColor.colorWithSVGString(color7), context); };
+var onRun8 = function(context) { fillWithColor(MSColor.colorWithSVGString(color8), context); };
+var onRun9 = function(context) { fillWithColor(MSColor.colorWithSVGString(color9), context); };
+var onRun0 = function(context) { fillWithColor(MSColor.colorWithSVGString(color0), context); };
+
+var fillWithColor = function(color, context) {
+
+	var selection = context.selection;
+	if (selection.count() > 0) {
+
+		var loop = selection.objectEnumerator()
+		while (layer = loop.nextObject()) {
+			var fill = layer.style().fills().firstObject();
+			layer.textColor = color;
+
+			fill.setFillType(0);
+			fill.setColor(color);
+		}
+	} else {
+		var doc = context.document;
+		doc.showMessage("You didn’t select a layer!");
+	}
+};
