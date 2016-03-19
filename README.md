@@ -1,1 +1,1 @@
-# Painter
+# Painter-Sketch-Plugin
