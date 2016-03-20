@@ -3,11 +3,13 @@
 Change color fill of the layer with shortcuts.
 
 You can set 10 colors:
-**Shift + Ctrl + 1**
-**Shift + Ctrl + 2**
+Shift + Ctrl + 1
+Shift + Ctrl + 2
 ...
-**Shift + Ctrl + 9**
-**Shift + Ctrl + 0**
+Shift + Ctrl + 9
+Shift + Ctrl + 0
+
+![Image of Yaktocat](http://s12.postimg.org/j7lpbhdfh/painter.png)
 
 
 ## Install
