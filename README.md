@@ -1,6 +1,6 @@
 # Painter
 
-Change color fill of the layer with shortcuts.
+Change color of the layer with shortcuts.
 
 Color | Shortcut
 ------------ | -------------
