@@ -16,14 +16,6 @@ Color 9 | Shift + Ctrl + 9
 Color 0 | Shift + Ctrl + 0
 
 
-You can set 10 colors:
-Shift + Ctrl + 1
-Shift + Ctrl + 2
-...
-Shift + Ctrl + 9
-Shift + Ctrl + 0
-
-
 
 You can set you colors in `Painter.sketchplugin > painter.cocoascript`
 ![Your colors](http://s12.postimg.org/j7lpbhdfh/painter.png)
