@@ -1,6 +1,6 @@
 # Painter
 
-Change the most used colors with shortcuts.
+Change color fill of the layer with shortcuts.
 
 There are 10 colors you can set:
 **Shift + Ctrl + 1**
