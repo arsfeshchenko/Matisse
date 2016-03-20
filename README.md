@@ -2,7 +2,7 @@
 
 Change color fill of the layer with shortcuts.
 
-There are 10 colors you can set:
+You can set 10 colors:
 **Shift + Ctrl + 1**
 **Shift + Ctrl + 2**
 ...
