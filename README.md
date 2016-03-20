@@ -2,7 +2,7 @@
 
 Change color of the layer with shortcuts.
 
-![Image of Yaktocat](http://s10.postimg.org/gk3qre6jt/animation6.gif)
+![Image of Yaktocat](http://i.giphy.com/26u6ctDXopW5C7lpm.gif)
 
 Color | Shortcut
 ------------ | -------------
