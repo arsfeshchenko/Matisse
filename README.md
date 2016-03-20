@@ -3,6 +3,7 @@
 Change color of the layer with shortcuts.
 
 ![Image of Yaktocat](http://s10.postimg.org/gk3qre6jt/animation6.gif)
+
 Color | Shortcut
 ------------ | -------------
 Color 1 | Shift + Ctrl + 1
