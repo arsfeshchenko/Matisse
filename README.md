@@ -14,5 +14,5 @@ There are 10 colors you can set:
 
 1. [Download the repo](https://github.com/arsfeshchenko/Painter/archive/master.zip) and extract it.
 2. In Sketch click the menu `Plugins > Manage Plugins... > Show Plugins Folder...`
-3. Drag the `select-child-layers-sketch-plugin` folder into the revealed folder.
+3. Drag the `Painter` folder into the revealed folder.
 
