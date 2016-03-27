@@ -19,7 +19,7 @@ Color 0 | Shift + Ctrl + 0
 
 
 <br>
-You can set you colors in `Painter.sketchplugin > painter.cocoascript`:
+You can set your own colors in `Painter.sketchplugin > painter.cocoascript`:
 <br>
 ![Your colors](http://s12.postimg.org/j7lpbhdfh/painter.png)
 
