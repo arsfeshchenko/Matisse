@@ -17,6 +17,14 @@ Color 8 | Shift + Ctrl + 8
 Color 9 | Shift + Ctrl + 9
 Color 0 | Shift + Ctrl + 0
 
+Shadow | Shortcut
+------------ | -------------
+Shadow 1 | Shift + Ctrl + q
+Shadow 2 | Shift + Ctrl + w
+Shadow 3 | Shift + Ctrl + e
+Shadow 4 | Shift + Ctrl + r
+
+
 
 <br>
 You can set your own colors in `Painter.sketchplugin > painter.cocoascript`:
