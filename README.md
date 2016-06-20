@@ -2,7 +2,7 @@
 
 Change color of the layer with shortcuts.
 
-![Image of Yaktocat](http://i.giphy.com/26u6ctDXopW5C7lpm.gif)
+<img src="https://github.com/arsfeshchenko/Painter/blob/master/Demo/demo.gif" alt="Demo" />
 
 Color | Shortcut
 ------------ | -------------
@@ -20,8 +20,8 @@ Color 0 | Shift + Ctrl + 0
 
 <br>
 You can set your own colors in `Painter.sketchplugin > painter.cocoascript`:
-<br>
-![Your colors](http://s12.postimg.org/j7lpbhdfh/painter.png)
+<br><br>
+<img src="https://github.com/arsfeshchenko/Painter/blob/master/Demo/colors.png" alt="Demo" />
 
 
 ## Install
