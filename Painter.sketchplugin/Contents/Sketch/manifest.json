@@ -18,65 +18,96 @@
       "script" : "painter.cocoascript",
       "handler" : "onRun2",
       "shortcut" : "shift ctrl 2",
-      "name" : "#FD9F41",
+      "name" : "#6688BB",
       "identifier" : "toggle2"
     },
     {
       "script" : "painter.cocoascript",
       "handler" : "onRun3",
       "shortcut" : "shift ctrl 3",
-      "name" : "#6688BB",
+      "name" : "#333333",
       "identifier" : "toggle3"
     },
     {
       "script" : "painter.cocoascript",
       "handler" : "onRun4",
       "shortcut" : "shift ctrl 4",
-      "name" : "#606EA5",
+      "name" : "#9E9E9E",
       "identifier" : "toggle4"
     },
     {
       "script" : "painter.cocoascript",
       "handler" : "onRun5",
       "shortcut" : "shift ctrl 5",
-      "name" : "#333333",
+      "name" : "#BDBDBD",
       "identifier" : "toggle5"
     },
     {
       "script" : "painter.cocoascript",
       "handler" : "onRun6",
       "shortcut" : "shift ctrl 6",
-      "name" : "#9E9E9E",
+      "name" : "#E0E0E0",
       "identifier" : "toggle6"
     },
     {
       "script" : "painter.cocoascript",
       "handler" : "onRun7",
       "shortcut" : "shift ctrl 7",
-      "name" : "#BDBDBD",
+      "name" : "#EEEEEE",
       "identifier" : "toggle7"
     },
     {
       "script" : "painter.cocoascript",
       "handler" : "onRun8",
       "shortcut" : "shift ctrl 8",
-      "name" : "#E0E0E0",
+      "name" : "#F5F5F5",
       "identifier" : "toggle8"
     },
     {
       "script" : "painter.cocoascript",
       "handler" : "onRun9",
       "shortcut" : "shift ctrl 9",
-      "name" : "#F5F5F5",
+      "name" : "#FFFFFF",
       "identifier" : "toggle9"
     },
     {
       "script" : "painter.cocoascript",
-      "handler" : "onRun0",
+      "handler" : "onRun10",
       "shortcut" : "shift ctrl 0",
       "name" : "#FFFFFF",
-      "identifier" : "toggle0"
+      "identifier" : "toggle10"
     },
+
+
+
+    {
+      "script" : "painter.cocoascript",
+      "handler" : "onRun11",
+      "shortcut" : "shift ctrl q",
+      "name" : "No Shadow",
+      "identifier" : "toggle11"
+    },
+    {
+      "script" : "painter.cocoascript",
+      "handler" : "onRun12",
+      "shortcut" : "shift ctrl w",
+      "name" : "Shadow 1",
+      "identifier" : "toggle12"
+    },
+    {
+      "script" : "painter.cocoascript",
+      "handler" : "onRun13",
+      "shortcut" : "shift ctrl e",
+      "name" : "Shadow 2",
+      "identifier" : "toggle13"
+    },
+    {
+      "script" : "painter.cocoascript",
+      "handler" : "onRun14",
+      "shortcut" : "shift ctrl r",
+      "name" : "Shadow 3",
+      "identifier" : "toggle14"
+    }
 
   ],
   "menu" : {
@@ -90,7 +121,11 @@
       "toggle7",
       "toggle8",
       "toggle9",
-      "toggle0"
+      "toggle10",
+      "toggle11",
+      "toggle12",
+      "toggle13",
+      "toggle14"
     ],
     "title" : "Painter"
   },

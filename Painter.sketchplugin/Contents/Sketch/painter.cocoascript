@@ -1,15 +1,51 @@
 
 
+
 var color1 = "#FF9800";
-var color2 = "#FD9F41";
-var color3 = "#6688BB";
-var color4 = "#606EA5";
-var color5 = "#333333";
-var color6 = "#9E9E9E";
-var color7 = "#BDBDBD";
-var color8 = "#E0E0E0";
-var color9 = "#F5F5F5";
-var color0 = "#FFFFFF";
+var color2 = "#6688BB";
+var color3 = "#333333";
+var color4 = "#9E9E9E";
+var color5 = "#BDBDBD";
+var color6 = "#E0E0E0";
+var color7 = "#EEEEEE";
+var color8 = "#F5F5F5";
+var color9 = "#FFFFFF";
+var color10 = "#FFFFFF";
+
+
+
+var offsetX1 = 0;
+var offsetY1 = 0;
+var blurRadius1 = 0;
+var spread1 = 0;
+var color11 = "#000000";
+var alpha1 = 0.2;
+var isEnabled1 = false;
+
+var offsetX2 = 0;
+var offsetY2 = 1;
+var blurRadius2 = 2;
+var spread2 = 0;
+var color12 = "#000000";
+var alpha2 = 0.1;
+var isEnabled2 = true;
+
+var offsetX3 = 0;
+var offsetY3 = 2;
+var blurRadius3 = 4;
+var spread3 = 0;
+var color13 = "#000000";
+var alpha3 = 0.2;
+var isEnabled3 = true;
+
+var offsetX4 = 0;
+var offsetY4 = 4;
+var blurRadius4 = 16;
+var spread4 = 0;
+var color14 = "#000000";
+var alpha4 = 0.15;
+var isEnabled4 = true;
+
 
 
 var onRun1 = function(context) { fillWithColor(MSColor.colorWithSVGString(color1), context); };
@@ -21,7 +57,14 @@ var onRun6 = function(context) { fillWithColor(MSColor.colorWithSVGString(color6
 var onRun7 = function(context) { fillWithColor(MSColor.colorWithSVGString(color7), context); };
 var onRun8 = function(context) { fillWithColor(MSColor.colorWithSVGString(color8), context); };
 var onRun9 = function(context) { fillWithColor(MSColor.colorWithSVGString(color9), context); };
-var onRun0 = function(context) { fillWithColor(MSColor.colorWithSVGString(color0), context); };
+var onRun10 = function(context) { fillWithColor(MSColor.colorWithSVGString(color10), context); };
+
+
+
+var onRun11 = function(context) {applyShadow(offsetX1, offsetY1, blurRadius1, spread1, color11, alpha1, isEnabled1, context); };
+var onRun12 = function(context) {applyShadow(offsetX2, offsetY2, blurRadius2, spread2, color12, alpha2, isEnabled2, context); };
+var onRun13 = function(context) {applyShadow(offsetX3, offsetY3, blurRadius3, spread3, color13, alpha3, isEnabled3, context); };
+var onRun14 = function(context) {applyShadow(offsetX4, offsetY4, blurRadius4, spread4, color14, alpha4, isEnabled4, context); };
 
 var fillWithColor = function(color, context) {
 
@@ -35,6 +78,41 @@ var fillWithColor = function(color, context) {
 
 			fill.setFillType(0);
 			fill.setColor(color);
+		}
+	} else {
+		var doc = context.document;
+		doc.showMessage("You didn’t select a layer!");
+	}
+};
+
+
+
+
+var applyShadow = function(offsetX, offsetY, blurRadius, spread, color, alpha, isEnabled, context) {
+
+	var selection = context.selection;
+	if (selection.count() > 0) {
+
+		var loop = selection.objectEnumerator()
+		while (layer = loop.nextObject()) {
+			log(layer.style().shadow());
+
+			var shadow = layer.style().shadow();
+			if (!shadow) {
+    			shadow = MSStyleShadow.alloc().init()
+    			layer.style().shadows().addObject(shadow)
+			}
+
+			shadow.isEnabled = isEnabled;
+
+			shadow.offsetX = offsetX;
+			shadow.offsetY = offsetY;
+			shadow.blurRadius = blurRadius;
+			shadow.spread = spread;
+
+			var shadowColor = MSColor.colorWithSVGString(color)
+			shadowColor.alpha = alpha;
+			shadow.color = shadowColor;
 		}
 	} else {
 		var doc = context.document;
