@@ -20,7 +20,7 @@ Color 10 | Shift + Ctrl + 0
 
 
 <br>
-You can set your own colors global colors pallete `Painter.sketchplugin > painter.cocoascript`:
+You can set your own colors global colors pallete:
 <br><br>
 <img src="https://github.com/arsfeshchenko/Painter/blob/master/Demo/colors.png" alt="Demo" />
 
