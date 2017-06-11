@@ -1,7 +1,4 @@
 
-
-
-
 var fillColorFromGlobalColors0 = function(context) { fillColorFormColors(0, context); }
 var fillColorFromGlobalColors1 = function(context) { fillColorFormColors(1, context); }
 var fillColorFromGlobalColors2 = function(context) { fillColorFormColors(2, context); }

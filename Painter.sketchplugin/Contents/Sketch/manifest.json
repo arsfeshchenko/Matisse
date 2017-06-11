@@ -9,77 +9,70 @@
         {
             "script" : "painter.js",
             "handler" : "fillColorFromGlobalColors0",
-            "shortcut" : "shift ctrl 1",
+            "shortcut" : "ctrl 1",
             "name" : "Color 1",
             "identifier" : "сolor-1"
         },
         {
             "script" : "painter.js",
             "handler" : "fillColorFromGlobalColors1",
-            "shortcut" : "shift ctrl 2",
+            "shortcut" : "ctrl 2",
             "name" : "Color 2",
             "identifier" : "сolor-2"
         },
         {
             "script" : "painter.js",
             "handler" : "fillColorFromGlobalColors2",
-            "shortcut" : "shift ctrl 3",
+            "shortcut" : "ctrl 3",
             "name" : "Color 3",
             "identifier" : "сolor-3"
         },
         {
             "script" : "painter.js",
             "handler" : "fillColorFromGlobalColors3",
-            "shortcut" : "shift ctrl 4",
+            "shortcut" : "ctrl 4",
             "name" : "Color 4",
             "identifier" : "сolor-4"
         },
         {
             "script" : "painter.js",
             "handler" : "fillColorFromGlobalColors4",
-            "shortcut" : "shift ctrl 5",
+            "shortcut" : "ctrl 5",
             "name" : "Color 5",
             "identifier" : "сolor-5"
         },
         {
             "script" : "painter.js",
             "handler" : "fillColorFromGlobalColors5",
-            "shortcut" : "shift ctrl 6",
+            "shortcut" : "ctrl 6",
             "name" : "Color 6",
             "identifier" : "сolor-6"
         },
         {
             "script" : "painter.js",
             "handler" : "fillColorFromGlobalColors6",
-            "shortcut" : "shift ctrl 7",
+            "shortcut" : "ctrl 7",
             "name" : "Color 7",
             "identifier" : "сolor-7"
         },
         {
             "script" : "painter.js",
             "handler" : "fillColorFromGlobalColors7",
-            "shortcut" : "shift ctrl 8",
+            "shortcut" : "ctrl 8",
             "name" : "Color 8",
             "identifier" : "сolor-8"
         },
         {
             "script" : "painter.js",
             "handler" : "fillColorFromGlobalColors8",
-            "shortcut" : "shift ctrl 9",
+            "shortcut" : "ctrl 9",
             "name" : "Color 9",
             "identifier" : "сolor-9"
         },
         {
             "script" : "painter.js",
-            "handler" : "fillColorFromGlobalColors9",
-            "shortcut" : "shift ctrl 10",
-            "name" : "Color 10",
-            "identifier" : "сolor-10"
-        },
-        {
-            "script" : "painter.js",
             "handler" : "fillColorFromGlobalColors10",
-            "shortcut" : "shift ctrl 0",
+            "shortcut" : "ctrl 0",
             "name" : "Color 10",
             "identifier" : "сolor-10"
         },
