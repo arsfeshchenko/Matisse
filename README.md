@@ -6,16 +6,16 @@ Change color of the layer with shortcuts.
 
 Color | Shortcut
 ------------ | -------------
-Color 1 | Shift + Ctrl + 1
-Color 2 | Shift + Ctrl + 2
-Color 3 | Shift + Ctrl + 3
-Color 4 | Shift + Ctrl + 4
-Color 5 | Shift + Ctrl + 5
-Color 6 | Shift + Ctrl + 6
-Color 7 | Shift + Ctrl + 7
-Color 8 | Shift + Ctrl + 8
-Color 9 | Shift + Ctrl + 9
-Color 10 | Shift + Ctrl + 0
+Color 1 | Ctrl + 1
+Color 2 | Ctrl + 2
+Color 3 | Ctrl + 3
+Color 4 | Сtrl + 4
+Color 5 | Ctrl + 5
+Color 6 | Ctrl + 6
+Color 7 | Ctrl + 7
+Color 8 | Ctrl + 8
+Color 9 | Ctrl + 9
+Color 10 | Ctrl + 0
 
 
 
