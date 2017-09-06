@@ -20,7 +20,7 @@ Color 10 | Ctrl + 0
 
 
 <br>
-You can set your own colors global colors pallete:
+You can set your own colors in global colors pallete:
 <br><br>
 <img src="https://github.com/arsfeshchenko/Painter/blob/master/Demo/colors.png" alt="Demo" />
 
