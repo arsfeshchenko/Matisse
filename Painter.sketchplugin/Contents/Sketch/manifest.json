@@ -2,7 +2,8 @@
     "name" : "Painter",
     "identifier" : "com.sketchapp.painter",
     "version" : "1.0",
-    "description" : "Shortcuts for colors from color palette",
+    "description" : "Change color of the layer with shortcuts.",
+    "icon" : "icon.png",
     "authorEmail" : "ars.feshchenko@gmail.com",
     "author" : "Arseniy Feshchenko",
     "commands" : [

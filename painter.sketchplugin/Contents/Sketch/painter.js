@@ -52,7 +52,7 @@ function getFillColor(layer) {
         }
     }
     if (layer.class() == "MSTextLayer") {
-        return layer.textColor();
+        return layer.setTextColor();
     }
 }
 
