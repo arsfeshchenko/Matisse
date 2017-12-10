@@ -38,26 +38,11 @@ function fillColorFormColors(index, context) {
 
 }
 
-function getFillColor(layer) {
-    if (layer.class() == "MSShapeGroup") {
-        var fills = layer.style().enabledFills();
-        if (fills.count() > 0) {
-            if (fills.lastObject().fillType() == 0) {
-                return fills.lastObject().color();
-            } else {
-                return null;
-            }
-        } else {
-            return null;
-        }
-    }
-    if (layer.class() == "MSTextLayer") {
-        return layer.setTextColor();
-    }
-}
 
 function setFillColor(layer, color) {
+
     if (layer.class() == "MSShapeGroup") {
+      console.log("Hello!")
         var fills = layer.style().enabledFills();
         if (fills.count() > 0 && fills.lastObject().fillType() == 0) {
             fills.lastObject().setColor(color);
@@ -68,6 +53,6 @@ function setFillColor(layer, color) {
         }
     }
     if (layer.class() == "MSTextLayer") {
-        layer.setTextColor(color);
+      layer.textColor = MSImmutableColor.colorWithRed_green_blue_alpha(color.red(), color.green(), color.blue(), color.alpha());
     }
 }
