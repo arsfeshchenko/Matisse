@@ -9,7 +9,6 @@ var fillColorFromGlobalColors6 = function(context) { fillColorFormColors(6, cont
 var fillColorFromGlobalColors7 = function(context) { fillColorFormColors(7, context); }
 var fillColorFromGlobalColors8 = function(context) { fillColorFormColors(8, context); }
 var fillColorFromGlobalColors9 = function(context) { fillColorFormColors(9, context); }
-var fillColorFromGlobalColors10 = function(context) { fillColorFormColors(10, context); }
 
 
 function fillColorFormColors(index, context) {
