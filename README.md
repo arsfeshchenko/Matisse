@@ -36,7 +36,8 @@ You can set your own colors in global colors pallete:
 ## Install with Sketch Runner
 With Sketch Runner, just go to the `install` command and search for `Painter`. Runner allows you to manage plugins and do much more to speed up your workflow in Sketch. [Download Runner here](http://www.sketchrunner.com).
 
-![Sketch Runner screenshot]("https://github.com/arsfeshchenko/Painter/blob/master/Demo/install-runner.png")
+<img src="https://github.com/arsfeshchenko/Painter/blob/master/Demo/runner.png">
+
 
 
 
