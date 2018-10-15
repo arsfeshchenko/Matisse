@@ -12,46 +12,20 @@ var fillColorFromGlobalColors9 = function(context) { fillColorFormColors(9, cont
 
 
 function fillColorFormColors(index, context) {
-    var doc = context.document;
-    var colors = NSApp.delegate().globalAssets().colors();
+  var sketch = require('sketch')
 
-    if (colors.count() == 0) {
-        doc.showMessage("You don't have any Global Colors Palette set yet");
-        return false;
-    }
+  var Style = sketch.Style
+  var document = sketch.getSelectedDocument()
 
-    var selection = context.selection;
+  var selection = document.selectedLayers
+  var colors = NSApp.delegate().globalAssets().colors();
 
-    if (selection.count() == 0) {
-        doc.showMessage("Please select one Shape or Text layer.");
-        return false;
-    }
-
-    for (var i = 0; i < selection.count(); i++) {
-        var layer = selection.objectAtIndex(i);
-        if (layer.class() == "MSShapeGroup" || layer.class() == "MSTextLayer") {
-
-            setFillColor(layer, colors.objectAtIndex(index));
-        }
-    }
-
-}
-
-
-function setFillColor(layer, color) {
-
-    if (layer.class() == "MSShapeGroup") {
-      console.log("Hello!")
-        var fills = layer.style().enabledFills();
-        if (fills.count() > 0 && fills.lastObject().fillType() == 0) {
-            fills.lastObject().setColor(color);
-        } else {
-            var fill = layer.style().addStylePartOfType(0);
-            fill.setFillType(0);
-            fills.lastObject().setColor(color);
-        }
-    }
-    if (layer.class() == "MSTextLayer") {
-      layer.textColor = MSImmutableColor.colorWithRed_green_blue_alpha(color.red(), color.green(), color.blue(), color.alpha());
-    }
+  selection.forEach(function(layer) {
+    layer.style.fills = [
+      {
+        color: colors.objectAtIndex(index),
+        fill: Style.FillType.Color,
+      }
+    ]
+  })
 }
