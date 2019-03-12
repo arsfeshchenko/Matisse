@@ -12,20 +12,27 @@ var fillColorFromGlobalColors9 = function(context) { fillColorFormColors(9); }
 
 
 function fillColorFormColors(index) {
-  var sketch = require('sketch')
+  const sketch = require('sketch')
 
   var Style = sketch.Style
+  // var Text = sketch.Text
   var document = sketch.getSelectedDocument()
 
   var selection = document.selectedLayers
-  var colors = NSApp.delegate().globalAssets().colors();
+  var color = MSPersistentAssetCollection.sharedGlobalAssets().colorAssets().objectAtIndex(index).color();
 
   selection.forEach(function(layer) {
+
+    if (layer.type == "Text") {
+      layer.style.textColor = MSImmutableColor.colorWithRed_green_blue_alpha(color.red(), color.green(), color.blue(), color.alpha())
+
+    } else {
     layer.style.fills = [
       {
-        color: colors.objectAtIndex(index),
+        color: color,
         fill: Style.FillType.Color,
       }
     ]
+  }
   })
 }
