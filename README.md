@@ -1,6 +1,6 @@
 # Pavlin
 
-Change color of the layer with shortcuts.
+Change color of the layer with Global Color shortcut
 
 <img src="https://github.com/arsfeshchenko/Painter/blob/master/Demo/demo.gif" alt="Demo" />
 
