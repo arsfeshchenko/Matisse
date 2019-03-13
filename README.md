@@ -1,4 +1,4 @@
-# Painter
+# Pavlin
 
 Change color of the layer with shortcuts.
 
@@ -43,5 +43,5 @@ With Sketch Runner, just go to the `install` command and search for `Painter`. R
 
 <a href="http://bit.ly/SketchRunnerWebsite">
       <img src="http://bit.ly/RunnerBadgeBlue" width="200px">
-    </a>
+</a>
 
