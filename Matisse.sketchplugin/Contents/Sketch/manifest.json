@@ -1,35 +1,35 @@
 {
-    "name" : "Painter",
+    "name" : "🎨 Matisse",
     "identifier" : "com.sketchapp.painter",
-    "version" : "1.1",
-    "description" : "Change color of the layer with shortcuts.",
+    "version" : "1.2",
+    "description" : "Superquick shortcuts for Global Colors",
     "icon" : "icon.png",
     "authorEmail" : "ars.feshchenko@gmail.com",
     "author" : "Arseniy Feshchenko",
     "commands" : [
         {
-            "script" : "painter.js",
+            "script" : "matisse.js",
             "handler" : "fillColorFromGlobalColors0",
             "shortcut" : "ctrl 1",
             "name" : "Color 1",
             "identifier" : "сolor-1"
         },
         {
-            "script" : "painter.js",
+            "script" : "matisse.js",
             "handler" : "fillColorFromGlobalColors1",
             "shortcut" : "ctrl 2",
             "name" : "Color 2",
             "identifier" : "сolor-2"
         },
         {
-            "script" : "painter.js",
+            "script" : "matisse.js",
             "handler" : "fillColorFromGlobalColors2",
             "shortcut" : "ctrl 3",
             "name" : "Color 3",
             "identifier" : "сolor-3"
         },
         {
-            "script" : "painter.js",
+            "script" : "matisse.js",
             "handler" : "fillColorFromGlobalColors3",
             "shortcut" : "ctrl 4",
             "name" : "Color 4",
@@ -43,35 +43,35 @@
             "identifier" : "сolor-5"
         },
         {
-            "script" : "painter.js",
+            "script" : "matisse.js",
             "handler" : "fillColorFromGlobalColors5",
             "shortcut" : "ctrl 6",
             "name" : "Color 6",
             "identifier" : "сolor-6"
         },
         {
-            "script" : "painter.js",
+            "script" : "matisse.js",
             "handler" : "fillColorFromGlobalColors6",
             "shortcut" : "ctrl 7",
             "name" : "Color 7",
             "identifier" : "сolor-7"
         },
         {
-            "script" : "painter.js",
+            "script" : "matisse.js",
             "handler" : "fillColorFromGlobalColors7",
             "shortcut" : "ctrl 8",
             "name" : "Color 8",
             "identifier" : "сolor-8"
         },
         {
-            "script" : "painter.js",
+            "script" : "matisse.js",
             "handler" : "fillColorFromGlobalColors8",
             "shortcut" : "ctrl 9",
             "name" : "Color 9",
             "identifier" : "сolor-9"
         },
         {
-            "script" : "painter.js",
+            "script" : "matisse.js",
             "handler" : "fillColorFromGlobalColors9",
             "shortcut" : "ctrl 0",
             "name" : "Color 10",
