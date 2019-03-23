@@ -19,12 +19,8 @@ Change layer's color with Global Colors shortcut
 ## Install with Sketch Runner
 With Sketch Runner, just go to the `install` command and search for `Painter`. Runner allows you to manage plugins and do much more to speed up your workflow in Sketch. [Download Runner here](http://www.sketchrunner.com).
 
-<img src="https://github.com/arsfeshchenko/Painter/blob/master/Demo/runner.png">
-
-
-
 
 <a href="http://bit.ly/SketchRunnerWebsite">
-      <img src="http://bit.ly/RunnerBadgeBlue" width="200px">
+<img src="http://bit.ly/RunnerBadgeBlue" width="200px">
 </a>
 
