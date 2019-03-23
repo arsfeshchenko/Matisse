@@ -1,7 +1,7 @@
 # Matisse
 ### Sketch plugin
 
-Change layer's color with Global Colors shortcut
+⚡️Superquick shortcuts for Global Colors
 
 <img src="https://github.com/arsfeshchenko/Painter/blob/master/Demo/demo.gif" alt="Demo" />
 <br><br>
