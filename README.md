@@ -5,7 +5,7 @@ Change layer's color with Global Colors shortcut
 
 <img src="https://github.com/arsfeshchenko/Painter/blob/master/Demo/demo.gif" alt="Demo" />
 <br><br>
-<img src="https://github.com/arsfeshchenko/Painter/blob/master/Demo/colors.png" alt="Demo" />
+<img src="https://github.com/arsfeshchenko/Painter/blob/master/Demo/colors.jpg" alt="Demo" />
 
 
 
