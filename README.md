@@ -1,26 +1,9 @@
-# Pavlin
+# Matisse
+### Sketch plugin
 
-Change color of the layer with Global Color shortcut
+Change layer's color with Global Colors shortcut
 
 <img src="https://github.com/arsfeshchenko/Painter/blob/master/Demo/demo.gif" alt="Demo" />
-
-Color | Shortcut
------------- | -------------
-Color 1 | Ctrl + 1
-Color 2 | Ctrl + 2
-Color 3 | Ctrl + 3
-Color 4 | Сtrl + 4
-Color 5 | Ctrl + 5
-Color 6 | Ctrl + 6
-Color 7 | Ctrl + 7
-Color 8 | Ctrl + 8
-Color 9 | Ctrl + 9
-Color 10 | Ctrl + 0
-
-
-
-<br>
-You can set your own colors in global colors pallete:
 <br><br>
 <img src="https://github.com/arsfeshchenko/Painter/blob/master/Demo/colors.png" alt="Demo" />
 
