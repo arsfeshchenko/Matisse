@@ -36,7 +36,7 @@
             "identifier" : "сolor-4"
         },
         {
-            "script" : "painter.js",
+            "script" : "matisse.js",
             "handler" : "fillColorFromGlobalColors4",
             "shortcut" : "ctrl 5",
             "name" : "Color 5",
